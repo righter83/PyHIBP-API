@@ -25,6 +25,6 @@ python3 Check_HIBP_API.py
 
 ### Results
 ```
-Account  test@example.com was hacked on these sites [{'Name': '000webhost'}, {'Name': '500px'}, {'Name': '8tracks'}]
+Account test@example.com was hacked on these sites [{'Name': '000webhost'}, {'Name': '500px'}, {'Name': '8tracks'}]
 ```
 

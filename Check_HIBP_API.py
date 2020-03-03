@@ -15,6 +15,6 @@ with open("list.txt") as f:
       resp = pyhibp.get_account_breaches(account=user, truncate_response=True)
       time.sleep(1.5)
       if resp:
-         print("Account ",user,"was hacked on these sites",resp)
+         print("Account ",user," was hacked on these sites",resp)
 
 
