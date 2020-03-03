@@ -1,5 +1,5 @@
-# PyHIBP API E-Mail Address List Scanner
-With this little script you can check a list of E-Mail Addressess if they have been powned.
+# PyHIBP API E-Mail Address List or single account Scanner
+With this little script you can check a single or a list of E-Mail Addressess if they have been powned.
 The source check is done via the HaveIbeenPowned APIv3
 
 ### Requirements
@@ -18,10 +18,16 @@ cp config.json.dist config.json
 ### Usage
 Create a list.txt File with an E-Mail Address on each line
 
-run the script
+run the script for a single address
+```
+python3 Check_HIBP_API.py user@example.com
+```
+
+run the script for a list of addresses which are stored in list.txt
 ```
 python3 Check_HIBP_API.py
 ```
+
 
 ### Results
 ```
