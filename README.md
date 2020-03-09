@@ -13,16 +13,18 @@ pip3 install pyhibp
 ### Installation
 First clone the repo:
 ```
-git clone https://github.com/righter83/PyHIBP-API   
+git clone https://github.com/righter83/PyHIBP-API
 ```
 
 Copy the config file and put your API Key in the copied file
 ```
 cp config.json.dist config.json
 ```
-### Usage
-Create a list.txt File with an E-Mail Address on each line
 
+if you wanna print only Breaches with passwords set onlyPw to true in config.json
+This is a static array list in the script
+
+### Usage
 run the script for a single address
 ```
 python3 Check_HIBP_API.py user@example.com
