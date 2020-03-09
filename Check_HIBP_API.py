@@ -4,8 +4,8 @@ from pyhibp import pwnedpasswords as pw
 import time
 import sys
 
-# List of Breaches with included passwords
-pws = ['adobe', 'LinkedIn']
+# List of Breaches with included passwords (this is only a small amount of pages which are used by my users)
+pws = ['Adobe', 'LinkedIn', 'Dubsmash', 'Netlog', 'OnlinerSpambot', 'MyFitnessPal' 'Lastfm', 'MyHeritage', 'DVDShopCH', 'Evite', 'Dropbox', '8fit', 'ArmorGames', 'BTCE', 'Canva', 'CafePress', 'ShareThis', 'Coinmama', 'Trillian']
 
 # read config file
 with open('config.json') as config_file:
