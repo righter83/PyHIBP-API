@@ -5,6 +5,11 @@ The source check is done via the HaveIbeenPowned APIv3
 ### Requirements
 You need an HIBP Api Key: https://haveibeenpwned.com/API/Key
 
+Install the pyhipb Library
+```
+pip3 install pyhibp
+```
+
 ### Installation
 First clone the repo:
 ```
